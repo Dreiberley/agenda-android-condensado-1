@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Agenda de Contatos</string>
+    <string name="titulo_agenda">Agenda de Alunos</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">Email</string>
+    <string name="salvar">Salvar</string>
+</resources>
