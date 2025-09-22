@@ -1,0 +1,21 @@
+{
+    "name": "Android Development",
+    "image": "mcr.microsoft.com/devcontainers/java:1-17-bullseye",
+    "features": {
+        "ghcr.io/devcontainers/features/android-sdk:1": {
+            "version": "latest",
+            "installMaven": false,
+            "installGradle": true
+        }
+    },
+    "forwardPorts": [5037],
+    "postCreateCommand": "chmod +x gradlew && ./gradlew assembleDebug",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "espresso.editorconfig"
+            ]
+        }
+    }
+}
